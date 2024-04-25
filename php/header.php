@@ -1,4 +1,4 @@
- <img src="assets\img\spit.png" height=70px style="height:100px" />
+ <img src="assets\img\spit.png" height=80px style="height:100px" />
  <header id=" header" class="header fixed-top" data-scrollto-offset="0">
      <div class="container-fluid d-flex align-items-center justify-content-between">
 

@@ -72,7 +72,7 @@ require_once("db.php");
                   <div class="clearfix"></div>
                   <hr>
                   <div>
-                    <p><span class="margin-right-10"><i class="fa fa-location-arrow text-green"> Role: </i> <?php echo $row['experience']; ?> </span><span class="margin-right-10"> <i class="fa fa-money text-green"> CTC:</i> <?php echo "Rs " . $row['minimumsalary'] . "    "; ?></span> <span class="margin-right-10"><i class="fa fa-calendar text-green"> Drive Date:</i> <?php echo date("d-M-Y", strtotime($row['createdat'])); ?></span><span class="margin-right-10"><i class="fa fa-location-calendar text-green"> Eligibility: </i> <?php echo $row['maximumsalary'] . "%"; ?> </span></p>
+                    <p><span class="margin-right-10"><i class="fa fa-location-arrow text-green"> Role: </i> <?php echo $row['experience']; ?> </span><span class="margin-right-10"> <i class="fa fa-money text-green"> CTC:</i> <?php echo "Rs " . $row['minimumsalary'] . "    "; ?></span> <span class="margin-right-10"><i class="fa fa-calendar text-green"> Drive Date:</i> <?php echo date("d-M-Y", strtotime($row['createdat'])); ?></span><span class="margin-right-10"><i class="fa fa-location-calendar text-green"> Eligibility: </i> <?php echo $row['maximumsalary'] . " CGPA"; ?> </span></p>
                     <!-- Years Experience -->
                   </div>
                   <div>
@@ -80,11 +80,12 @@ require_once("db.php");
                   </div>
                   <?php
                   if (isset($_SESSION["id_user"]) && empty($_SESSION['companyLogged'])) { ?>
-                    <div>
+                    <!-- <div>
                       <a onclick="eligiblefunction()" href="user/checkeligibility.php?id=<?php echo $row['id_jobpost']; ?>" class="btn btn-primary pull-right btn-flat margin-top-50">Check Eligibility</a>
-                    </div>
+                    </div> -->
                     <div>
-                      <a onclick="reallyfunction()" href="apply.php?id=<?php echo $row['id_jobpost']; ?>" class="btn btn-success btn-flat margin-top-50">Apply</a>
+                      <!-- <a onclick="reallyfunction()" href="apply.php?id=<?php echo $row['id_jobpost']; ?>" class="btn btn-success btn-flat margin-top-50">Apply</a> -->
+                      <a onclick="reallyfunction()" class="btn btn-success btn-flat margin-top-50">Apply</a>
                     </div>
                   <?php } ?>
 
@@ -105,10 +106,10 @@ require_once("db.php");
     <!-- /.content-wrapper -->
 
     <footer class="main-footer" style="margin-left: 0px;">
-      <div class="text-center">
+      <!-- <div class="text-center">
         <strong>Copyright &copy; 2023 <a href="learningfromscratch.online">Placement Portal</a>.</strong> All rights
         reserved.
-      </div>
+      </div> -->
     </footer>
 
     <!-- /.control-sidebar -->

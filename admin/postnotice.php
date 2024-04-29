@@ -240,10 +240,10 @@ if (isset($_POST['submit'])) {
     <footer class="main-footer" style="margin:auto;margin-bottom: 0px; padding:15px;
   width: 100%;
   height: 50px; position:absolute; background-color:#1f0a0a; color:white">
-        <div class="text-center">
-            <strong>Copyright &copy; 2023 Placement Portal</strong> All rights
+        <!-- <div class="text-center">
+            <strong>Copyright &copy; 2024 Placement Portal</strong> All rights
             reserved.
-        </div>
+        </div> -->
     </footer>
 
 </body>

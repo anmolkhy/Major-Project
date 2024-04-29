@@ -123,7 +123,7 @@ require_once("db.php");
 
         <!-- ======= Clients Section ======= -->
         <section id="clients" class="clients">
-            <div class="container" data-aos="zoom-out">
+            <!-- <div class="container" data-aos="zoom-out">
 
                 <div class="clients-slider swiper">
                     <div class="swiper-wrapper align-items-center">
@@ -138,7 +138,7 @@ require_once("db.php");
                     </div>
                 </div>
 
-            </div>
+            </div> -->
         </section><!-- End Clients Section -->
 
 
@@ -310,7 +310,7 @@ require_once("db.php");
 
     <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
 
-    <button class="open-button is-size-5" onclick="openForm()" style="color:#6900FF !important;"><strong><i class="fas fa-comment-alt"></i> Chat</strong></button>
+    <!-- <button class="open-button is-size-5" onclick="openForm()" style="color:#6900FF !important;"><strong><i class="fas fa-comment-alt"></i> Chat</strong></button>
 
     <div class="chat-popup" id="myForm">
         <form class="form-container">
@@ -321,7 +321,7 @@ require_once("db.php");
         </form>
     </div>
 
-    </div>
+    </div> -->
 
     <!-- JS FILES -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>

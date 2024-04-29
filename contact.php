@@ -60,7 +60,7 @@
 
             <div class="section-header">
                 <h2><strong>Contact Us</strong></h2>
-                <p>GALGOTIAS UNIVERSITY</p>
+                <p>Sardar Patel Institute of Technology</p>
             </div>
 
         </div>
@@ -69,9 +69,9 @@
 
         <div class="container">
 
-            <div class="row gy-5 gx-lg-5">
+            <!-- <div class="row gy-5 gx-lg-5">
 
-                <div class="col-lg-4">
+                <div class="col-lg-4"> -->
 
                     <div class="info">
                         <h3>Get in touch</h3>
@@ -81,7 +81,7 @@
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
                                 <h4>Location:</h4>
-                                <p>GALGOTIAS UNIVERSITY G.B NAGAR GREATER NOIDA.</p>
+                                <p>Bharatiya Vidya Bhavan's Sardar Patel Institute of Technology</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -89,7 +89,7 @@
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h4>Email:</h4>
-                                <p>XYZ@gmail.com</p>
+                                <p>major-project@spit.ac.in</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -97,15 +97,15 @@
                             <i class="bi bi-phone flex-shrink-0"></i>
                             <div>
                                 <h4>Call:</h4>
-                                <p>******9876</p>
+                                <p>8082314934</p>
                             </div>
                         </div><!-- End Info Item -->
-
+<!-- 
                     </div>
 
-                </div>
+                </div> -->
 
-                <div class="col-lg-8">
+                <!-- <div class="col-lg-8">
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="row">
                             <div class="col-md-6 form-group">
@@ -128,7 +128,7 @@
                         </div>
                         <div class="text-center"><button type="submit">Send Message</button></div>
                     </form>
-                </div><!-- End Contact Form -->
+                </div>End Contact Form -->
 
             </div>
 

@@ -67,7 +67,7 @@ if (empty($_SESSION['id_company'])) {
                     <li><a href="create-job-post.php"><i class="fa fa-file-o"></i> Post Drive</a></li>
                     <li><a href="my-job-post.php"><i class="fa fa-file-o"></i> Current Drives</a></li>
                     <li><a href="job-applications.php"><i class="fa fa-file-o"></i> Drive Applications</a></li>
-                    <li><a href="mailbox.php"><i class="fa fa-envelope"></i> Mailbox</a></li>
+                    <!-- <li><a href="mailbox.php"><i class="fa fa-envelope"></i> Mailbox</a></li> -->
                     <li class="active"><a href="settings.php"><i class="fa fa-gear"></i> Settings</a></li>
                     <li><a href="resume-database.php"><i class="fa fa-user"></i> Resume Database</a></li>
                     <li><a href="../logout.php"><i class="fa fa-arrow-circle-o-right"></i> Logout</a></li>
@@ -130,10 +130,10 @@ if (empty($_SESSION['id_company'])) {
     <!-- /.content-wrapper -->
 
     <footer class="main-footer" style="margin-left: 0px;">
-      <div class="text-center">
+      <!-- <div class="text-center">
         <strong>Copyright &copy; 2023 <a href="Galgotias University">Placement Portal</a>.</strong> All rights
         reserved.
-      </div>
+      </div> -->
     </footer>
 
     <!-- /.control-sidebar -->

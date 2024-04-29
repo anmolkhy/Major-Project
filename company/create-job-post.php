@@ -79,7 +79,7 @@ require_once("../db.php");
                     <li class="active"><a href="create-job-post.php"><i class="fa fa-file-o"></i> Post Drive</a></li>
                     <li><a href="my-job-post.php"><i class="fa fa-file-o"></i> Current Drives</a></li>
                     <li><a href="job-applications.php"><i class="fa fa-file-o"></i> Drive Applications</a></li>
-                    <li><a href="mailbox.php"><i class="fa fa-envelope"></i> Mailbox</a></li>
+                    <!-- <li><a href="mailbox.php"><i class="fa fa-envelope"></i> Mailbox</a></li> -->
                     <li><a href="settings.php"><i class="fa fa-gear"></i> Settings</a></li>
                     <li><a href="resume-database.php"><i class="fa fa-user"></i> Resume Database</a></li>
                     <li><a href="../logout.php"><i class="fa fa-arrow-circle-o-right"></i> Logout</a></li>
@@ -103,7 +103,7 @@ require_once("../db.php");
                       <input type="number" class="form-control  input-lg" id="minimumsalary" autocomplete="off" name="minimumsalary" placeholder="CTC" required="">
                     </div>
                     <div class="form-group">
-                      <input type="number" class="form-control  input-lg" id="maximumsalary" name="maximumsalary" placeholder="Eligibility Criteria" required="">
+                      <input type="number" class="form-control  input-lg" id="maximumsalary" name="maximumsalary" placeholder="Eligible CGPA" required="">
                     </div>
                     <div class="form-group">
                       <input class="form-control  input-lg" id="experience" autocomplete="off" name="experience" placeholder="Role" required="">
@@ -135,10 +135,10 @@ require_once("../db.php");
     </div>
     <!-- /.content-wrapper -->
     <footer class="main-footer" style="margin-left: 0px;">
-      <div class="text-center">
+      <!-- <div class="text-center">
         <strong>Copyright &copy; 2023 <a href="Galgotias University">Placement Portal</a>.</strong> All rights
         reserved.
-      </div>
+      </div> -->
     </footer>
 
     <!-- /.control-sidebar -->

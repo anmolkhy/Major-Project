@@ -6,21 +6,24 @@
         <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
             <div class="d-flex flex-column align-items-center align-items-lg-start">
+                <!-- <div class="copyright">
+                    &copy; Copyright <strong><span>SPIT</span></strong>. All Rights Reserved
+                </div> -->
                 <div class="copyright">
-                    &copy; Copyright <strong><span>GU</span></strong>. All Rights Reserved
+                    &copy; Copyright <strong><span>SPIT</span></strong>. All Rights Reserved
                 </div>
                 <div class="credits">
 
-                    <a href="https://bootstrapmade.com/">Galgotias University-PlacementCell</a>
+                    <a href="https://bootstrapmade.com/">SPIT-PlacementCell</a>
                 </div>
             </div>
 
             <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <!-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                 <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="google-plus"><i class="bi bi-skype"></i></a> -->
+                <a href="https://www.facebook.com/SPITCOLLEGE/" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.linkedin.com/school/bhartiya-vidya-bhavans-sardar-patel-institute-of-technology-munshi-nagar-andheri-mumbai/" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
 
         </div>

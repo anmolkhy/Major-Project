@@ -130,7 +130,9 @@ require_once("../db.php");
                         <label for="emailfield"><i class="fa fa-facebook" aria-hidden="true">Email</i></label>
                         <input type="text" id="emailField" placeholder=" Enter here" class=" form-control">
 
-                        </di <div class="form-group mt-2">
+                    </div> 
+                    
+                    <!-- <div class="form-group mt-2">
 
                         <label for="fbfield"><i class="fa fa-facebook" aria-hidden="true">Facebook</i></label>
                         <input type="text" id="fbField" placeholder=" Enter here" class=" form-control">
@@ -141,7 +143,7 @@ require_once("../db.php");
                         <label for="instafield"><i class="fa fa-instagram" aria-hidden="true">Instagram</i></label>
                         <input type="text" id="instaField" placeholder=" Enter here" class=" form-control">
 
-                    </div>
+                    </div> -->
                     <div class="form-group mt-2">
 
                         <label for="linkedField"><i class="fa fa-linkedin" aria-hidden="true">Linkedin</i></label>
@@ -170,16 +172,29 @@ require_once("../db.php");
                     </div>
                     <div class="form-group mt-2 " id="we">
 
-                        <label for="">Work Experience</label>
+                        <label for="">Work Experience / Positions of Responsibility</label>
                         <textarea type="text" placeholder=" Enter here" rows="3" class=" form-control weField"></textarea>
 
                         <!-- new -textarea will be added here dynamically -->
 
 
-                        <div class="container mt-2 text-center " id="weaddButton">
+                        <div class="container mt-2 text-center" id="weaddButton">
                             <button onclick="addNewWEfield()" class="btn btn-primary btn-small">Add</button>
                         </div>
                     </div>
+
+                    <!-- <div class="form-group mt-2" id="por">
+
+                        <label for="">Positions of Responsibility</label>
+                        <textarea type="text" placeholder=" Enter here" rows="3" class=" form-control porField"></textarea>
+
+                        new -textarea will be added here dynamically
+
+
+                        <div class="container mt-2 text-center " id="poraddButton">
+                            <button onclick="addNewfield()" class="btn btn-primary btn-small">Add</button>
+                        </div>
+                    </div> -->
 
                     <div class="form-group mt-2" id="eq">
 

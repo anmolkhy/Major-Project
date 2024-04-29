@@ -224,10 +224,10 @@ require_once("../db.php");
     <footer class="main-footer" style="margin:auto;bottom: 0;
   width: 100%;
   height: 50px; position:absolute; background-color:#1f0a0a; color:white">
-        <div class="text-center">
-            <strong>Copyright &copy; 2023 Placement Portal</strong> All rights
+        <!-- <div class="text-center">
+            <strong>Copyright &copy; 2024 Placement Portal</strong> All rights
             reserved.
-        </div>
+        </div> -->
     </footer>
 
     <!-- /.control-sidebar -->

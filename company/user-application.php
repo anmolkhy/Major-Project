@@ -210,10 +210,10 @@ if ($result->num_rows == 0) {
     <!-- /.content-wrapper -->
 
     <footer class="main-footer" style="margin-left: 0px;">
-      <div class="text-center">
+      <!-- <div class="text-center">
         <strong>Copyright &copy; 2023 <a href="Galgotias University">Placement Portal</a>.</strong> All rights
         reserved.
-      </div>
+      </div> -->
     </footer>
 
     <!-- /.control-sidebar -->

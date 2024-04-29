@@ -117,7 +117,7 @@ require_once("../db.php");
                       <div class="clearfix"></div>
                       <hr>
                       <div>
-                        <p><span class="margin-right-10"><i class="fa fa-location-arrow text-green"> Role: </i> <?php echo $row['experience']; ?> </span><span class="margin-right-10"> <i class="fa fa-money text-green"> CTC:</i> <?php echo "Rs " . $row['minimumsalary'] . "    "; ?></span> <span class="margin-right-10"><i class="fa fa-calendar text-green"> Drive Date:</i> <?php echo date("d-M-Y", strtotime($row['createdat'])); ?></span><span class="margin-right-10"><i class="fa fa-location-calendar text-green"> Eligibility: </i> <?php echo $row['maximumsalary'] . "%"; ?> </span></p>
+                        <p><span class="margin-right-10"><i class="fa fa-location-arrow text-green"> Role: </i> <?php echo $row['experience']; ?> </span><span class="margin-right-10"> <i class="fa fa-money text-green"> CTC:</i> <?php echo "Rs " . $row['minimumsalary'] . "    "; ?></span> <span class="margin-right-10"><i class="fa fa-calendar text-green"> Drive Date:</i> <?php echo date("d-M-Y", strtotime($row['createdat'])); ?></span><span class="margin-right-10"><i class="fa fa-location-calendar text-green"> Eligibility: </i> <?php echo $row['maximumsalary'] . " CGPA"; ?> </span></p>
                         <!-- Years Experience -->
                       </div>
                       <div>
@@ -147,10 +147,10 @@ require_once("../db.php");
     <!-- /.content-wrapper -->
 
     <footer class=" main-footer" style="margin-left: 0px;">
-                            <div class="text-center">
-                              <strong>Copyright &copy; 2023 <a href="Galgotias University">Placement Portal</a>.</strong> All rights
+                            <!-- <div class="text-center">
+                              <strong>Copyright &copy; SPIT <a href="">Placement Portal</a>.</strong> All rights
                               reserved.
-                            </div>
+                            </div> -->
                             </footer>
 
                             <!-- /.control-sidebar -->
